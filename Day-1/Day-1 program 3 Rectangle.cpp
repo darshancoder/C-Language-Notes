@@ -1,12 +1,17 @@
 //1.Rectangle  2L + 2W= 2(W+L) --> perimter Area LxW
-//2.Aera of Circle pie x r^2 --> perimter 2(pieR)
 
 
+#include<stdio.h>
 
-
-
-
-
-
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              //2L and 2W  
-                                                                                     
+int main(){
+	int L,W;
+	printf("Enter the value of L:\n");
+	scanf("%d",&L);
+	printf("Enter the value of W:\n");
+	scanf("%d",&W);
+//	int ans=2*L + 2*W;
+	int ans = 2*(L+W);
+	printf("Rectangle perimeter=%d\n",ans);
+	printf("Rectangle Aera = %d",L*W);
+	
+}
